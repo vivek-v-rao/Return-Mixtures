@@ -2,7 +2,8 @@ Return-Mixtures
 ===============
 
 Fit univariate and multivariate mixture models to return series with multiple base distributions.
-The main entry point is `xreturns_mix_general.py`.
+The main entry point is `xreturns_mix_general.py`. [Return-Mixtures-of-Normals](https://github.com/vivek-v-rao/Return-Mixtures-of-Normals)
+is a simpler project that only fits mixtures of normals.
 
 Overview
 --------
