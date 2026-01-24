@@ -1329,3 +1329,5 @@ symbol best_aic_dist    best_aic  best_aic_k best_bic_dist    best_bic  best_bic
 
 time elapsed: 169.369 seconds
 ```
+Here is a plot of the mixture densities for SPY returns
+![VXX density](plots/spy_all.png)
