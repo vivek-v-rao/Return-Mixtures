@@ -48,7 +48,7 @@ def main() -> int:
     dropna_df = False
     ret_scale = 100.0
     use_log_returns = True
-    max_symbols = 3 # None
+    max_symbols = None # 3
     symbols = None
     date_min: Optional[str] = None
     date_max: Optional[str] = None
@@ -56,7 +56,7 @@ def main() -> int:
     k_max = 3
     ewma_lambda = None
     k_mv_max = 2
-    dist_families = ["normal", "t"] # , "sech", "logistic"]
+    dist_families = ["normal", "t", "sech", "logistic"]
     t_dof: Optional[float] = 5.0 # None
     t_dof_mv: Optional[float] = t_dof
 
